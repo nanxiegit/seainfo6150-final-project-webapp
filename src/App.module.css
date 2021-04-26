@@ -1,0 +1,60 @@
+.container{
+  background-color: rgb(180, 183, 186);
+  min-width: 600px;
+  padding-bottom: 20px;
+}
+
+.header {
+    background-color:rgb(61, 63, 60);
+    font-size: 40px;
+    text-align: center;
+    border: 3px solid	rgba(61, 63, 60, 0.438);
+    font-family: "Copperplate";
+    color: rgb(206, 205, 207);
+  }
+
+  .nav{
+    background-color: rgb(90, 89, 89);
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 20px;
+}
+
+.nav li{
+    display:inline;
+    color: rgb(206, 205, 207);
+
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color: rgb(207, 205, 205);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Fantasy;
+    font-weight: bold;
+}
+
+  .nav a:link {
+    color: 	rgb(253, 254, 255);
+  }
+  
+  /* visited link */
+  .nav a:visited {
+    color: rgb(207, 205, 205);
+  }
+  
+  /* mouse over link */
+  .nav a:hover {
+    color: 	rgb(252, 249, 247);;
+  }
+  
+  /* selected link */
+  .nav a:active {
+    color: 	rgb(252, 249, 247);;
+  }

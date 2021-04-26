@@ -1,0 +1,62 @@
+.container {
+    background-color: rgb(180, 183, 186);
+    border-radius: 10px;
+    font-family: Lucida Console;
+    padding: 10px;
+  }
+  
+  .article {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+  }
+  
+  .header {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+
+  }
+  
+  .wrapper {
+      flex: 1;
+  }
+  
+  .title {
+      flex: 1;
+      margin: 0 0 20px;
+      color: rgb(88, 88, 88);
+      text-align: center;
+      font-family: Papyrus;  
+      white-space: nowrap;
+    
+  }
+  
+  .text {
+    font-size:20px;
+    margin: 0 0 20px;
+    font-family: Papyrus;
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+    text-decoration: underline overline;
+    text-align: center;
+
+  }
+  
+  .time {
+    font-weight: lighter;
+    font-size:12px;
+    font-family: Papyrus;
+    text-decoration:none;
+    color: rgb(88, 88, 88);
+  }
+  
+  .link {
+    color: rgb(88, 88, 88);
+    text-align: right;
+    text-decoration: none;
+  }
+

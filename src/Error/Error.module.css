@@ -1,0 +1,28 @@
+.container{
+    text-align: center;
+    position: relative;
+    font-family: "Copperplate";
+
+}
+
+.img{
+    width:100%;
+    opacity: 0.8;
+
+}
+
+.centered {
+    position: absolute;
+    bottom: 65%;
+    right: 30%;
+    color: rgba(6, 240, 26, 0.685);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .link{
+      text-decoration: none;
+      color: rgb(235, 102, 46);
+      font-size: 40px;
+  }
+

@@ -1,0 +1,18 @@
+html {
+    font-size: 12px;
+    background-color: rgb(180, 183, 186);
+    background: white;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    background-color: rgb(180, 183, 186);
+  }
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+    background: white;
+}

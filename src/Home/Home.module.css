@@ -1,0 +1,196 @@
+
+  .splitleft  {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: auto;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+    background-color: #111;
+  }
+
+  .leftimg {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 500px;
+    border-radius: 50%;
+    height: auto;
+  }
+
+  .lefttext {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Copperplate";
+  }
+
+  .splitright  {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: auto;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+    background-color: rgb(61, 63, 60);
+  }
+  
+
+.righttopimg {
+    position: absolute;
+    top: 14%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 75%;
+    height: 27%;
+    border-radius: 4px;
+  }
+
+  .rightmidimg {
+    position: absolute;
+    top: 42%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 68%;
+    height: 27%;
+    border-radius: 4px;
+  }
+
+  .rightbottonimg {
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 75%;
+    height: 27%;
+    border-radius: 4px;
+  }
+
+
+  .righttoptext {
+    position: absolute;
+    top: 10%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    font-family: "Copperplate";
+    color:rgb(52, 86, 139);
+  }
+
+  .rightmidtext {
+    position: absolute;
+    top: 38%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-family: "Copperplate";
+  }
+
+
+  .rightbottontext {
+    position: absolute;
+    top: 66%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    font-family: "Copperplate";
+  }
+  
+  .a {
+    color: rgb(205, 205, 207);
+    text-decoration: none; 
+  }
+  .a:hover {
+    color: 	rgb(228, 122, 46);
+  }
+
+  .aR {
+    color: rgb(205, 205, 207);
+    text-decoration: none; 
+  }
+  .aR:hover {
+    color: 	rgb(156, 71, 34);
+  }
+
+  .aS {
+    color: rgb(205, 205, 207);
+    text-decoration: none; 
+  }
+  .aS:hover {
+    color: 	rgb(253, 172, 83);
+  }
+
+  .aV {
+    color: rgb(205, 205, 207);
+    text-decoration: none; 
+  }
+  .aV:hover {
+    color: 	RGB(247, 202, 201);
+  }
+
+  @media only screen and (max-width: 700px) {
+    .righttoptext  {
+      /* writing-mode: vertical-rl; */
+      font-size: 20px;
+    }
+
+    .rightmidtext{
+      /* writing-mode: vertical-rl; */
+      font-size: 20px;
+    }
+    .rightbottontext{
+      /* writing-mode: vertical-rl; */
+      font-size: 20px;
+    }
+
+  }
+
+  @media only screen and (min-width: 700px) {
+    .righttoptext  {
+      /* writing-mode: vertical-rl; */
+      font-size: 30px;
+    }
+
+    .rightmidtext{
+      /* writing-mode: vertical-rl; */
+      font-size: 30px;
+    }
+    .rightbottontext{
+      /* writing-mode: vertical-rl; */
+      font-size: 30px;
+    }
+
+  }
+
+  @media only screen and (min-width: 950px) {
+    .righttoptext  {
+      /* writing-mode: vertical-rl; */
+      font-size: 40px;
+    }
+
+    .rightmidtext{
+      /* writing-mode: vertical-rl; */
+      font-size: 40px;
+    }
+    .rightbottontext{
+      /* writing-mode: vertical-rl; */
+      font-size: 40px;
+    }
+
+  }
+
+  .jqstooltip { 
+    background: white !important;;
+    background-color: rgba(0,0,0,0.6);
+  }
+
+
+  
+

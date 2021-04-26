@@ -1,0 +1,42 @@
+.header{
+    text-align: center;
+    position: relative;
+    color:rgb(34, 36, 156);    
+    font-weight: bolder;
+    text-align: center;
+    font-family: Papyrus;
+}
+
+.header1{
+    text-align: center;
+    position: relative;
+    color:rgba(58, 39, 230, 0.925);    
+    font-weight: bolder;
+    text-align: center;
+    font-family: Papyrus;
+}
+
+.label{
+    color:rgb(43, 59, 73);
+    font-family: Papyrus;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.frame{
+    width: 25%;
+    padding: 12px 20px;
+    border: grey;
+    border-radius: 4px;
+    background-color: #f1f1f186;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.submit{
+    font-family: Papyrus;
+    color:rgb(43, 59, 73);
+    font-weight: bold;
+    margin-left: 10px;
+}

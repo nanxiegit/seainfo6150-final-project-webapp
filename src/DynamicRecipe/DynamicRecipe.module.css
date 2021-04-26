@@ -1,0 +1,38 @@
+.article {
+    border: 1px #666;
+    border-radius: 10px;
+    font-family: Papyrus;
+    list-style-type: none;
+    padding: 10px; 
+    color:rgba(36, 32, 32, 0.671);
+    min-width: 600px;
+    margin:20px;
+    padding:20px;
+
+  }
+.header{
+  color:rgb(43, 59, 73);
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underline overline dotted;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.container{
+  display: inline-flex;
+  color:rgb(43, 59, 73);
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .container  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .article{
+    margin:-20px;
+
+  }
+}
+
